@@ -6,9 +6,12 @@ ctx = ssl.create_default_context()
 ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 
-url = "http://py4e-data.dr-chuck.net/known_by_Fikret.html"
-repeat = 4
-position = 3
+#change based on your distinct URL
+url = "http://py4e-data.dr-chuck.net/known_by_Tanzina.html"
+#change based on number of times required to repeat process
+repeat = 7
+#change based on position required
+position = 18
 
 #to repeat desired times
 for i in range(repeat):
